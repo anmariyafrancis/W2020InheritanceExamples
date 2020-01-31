@@ -29,4 +29,9 @@ public class Faculty extends Person
     public void setTotalSalary(int totalSalary) {
         this.totalSalary = totalSalary;
     }
+
+    @Override
+    public void display() {
+
+    }
 }

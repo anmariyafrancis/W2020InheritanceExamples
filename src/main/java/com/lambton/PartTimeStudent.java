@@ -24,9 +24,9 @@ public final class PartTimeStudent extends Student //final must be non abstract 
     {
         System.out.println("I am from PartTimestudent");
     }
-    @Override
+    /*@Override
     public  void test()
     {
 
-    }
+    }*/
 }

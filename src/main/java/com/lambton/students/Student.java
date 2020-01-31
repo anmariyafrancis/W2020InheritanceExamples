@@ -49,10 +49,8 @@ public class Student extends Person
         this.totalMarks = totalMarks;
     }
 
-    public  void test()
-    {
+   // public  abstract void testing();
 
-    }
     @Override
     public void display()
     {

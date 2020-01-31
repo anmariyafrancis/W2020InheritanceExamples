@@ -6,7 +6,7 @@ import com.lambton.students.Student;
 public class MyMain {
     public static void main(String[] args) {
         Person p1=new Person(1,"Anmariya","Female");
-        Student s1=new Student(1,"Anmariya","Female","MADT","Lambton",80);
+        Student s1;//=new Student(1,"Anmariya","Female","MADT","Lambton",80);
 
         PartTimeStudent ps1=new PartTimeStudent(1,"Aldin","Male","MADT","Lambton",70,3);
         //ps1.display();
