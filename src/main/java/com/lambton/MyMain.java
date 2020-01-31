@@ -10,11 +10,11 @@ public class MyMain {
 
         PartTimeStudent ps1=new PartTimeStudent(1,"Aldin","Male","MADT","Lambton",70,3);
         //ps1.display();
-        p1=s1;
+       /* p1=s1;
         p1.display();
 
         p1=ps1;
-        p1.display();
+        p1.display();*/
 
         IDisplay iDisplay;
 

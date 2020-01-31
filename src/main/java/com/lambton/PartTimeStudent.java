@@ -2,7 +2,7 @@ package com.lambton;
 
 import com.lambton.students.Student;
 
-public class PartTimeStudent extends Student
+public final class PartTimeStudent extends Student //final must be non abstract class
 {
     int noOfDays;
 
@@ -18,5 +18,15 @@ public class PartTimeStudent extends Student
 
     public void setNoOfDays(int noOfDays) {
         this.noOfDays = noOfDays;
+    }
+    @Override
+    public void display()
+    {
+        System.out.println("I am from PartTimestudent");
+    }
+    @Override
+    public  void test()
+    {
+
     }
 }

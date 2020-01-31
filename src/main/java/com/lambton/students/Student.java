@@ -48,10 +48,21 @@ public class Student extends Person
     {
         this.totalMarks = totalMarks;
     }
+
+    public  void test()
+    {
+
+    }
     @Override
     public void display()
     {
         System.out.println("I am from student");
     }
 
+    @Override
+    protected void finalize() throws Throwable { //destructor
+        super.finalize();
+
+        System.out.println("finalize()I am from student");
+    }
 }

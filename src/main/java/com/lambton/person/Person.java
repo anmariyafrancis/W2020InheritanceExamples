@@ -12,6 +12,7 @@ public class Person implements IDisplay
         this.id = id;
         this.name = name;
         this.gender = gender;
+
     }
 
     /*public Person()
